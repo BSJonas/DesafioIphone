@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2024-06-27T17:34:04.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="D55KaQw3ApfiZifEwzaq" version="24.6.3" type="github">
+  <diagram name="Página-1" id="Y4lWOconSGWFY-ot14uT">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-1" value="&amp;lt;Interface&amp;gt;&lt;div&gt;Reprodutor musical&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="465" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-2" value="+ tocar(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-1">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-3" value="+ pausar(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-1">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-4" value="+ selecionarMusica(musica: String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-1">
+          <mxGeometry y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-7" value="&amp;lt;Interface&amp;gt;&lt;div&gt;Aparelho Telefônico&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="466" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-8" value="+ ligar(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-7">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-9" value="+ atender(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-7">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-10" value="+ iniciarCorreioVoz(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-7">
+          <mxGeometry y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-11" value="&amp;lt;Interface&amp;gt;&lt;div&gt;Navegador&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="577" y="467" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-12" value="+ exibirPagina(url: String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-11">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-13" value="+ adicionarNovaAba(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-11">
+          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-14" value="+ atualizarPagina(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-11">
+          <mxGeometry y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N5TeXRDil59Ur9UTyFrV-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="422" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-15" value="Iphone" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297" y="125" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-16" value="- reprodutorMusical: ReprodutorMusical&lt;div&gt;- aparelhoTelefonico:A&lt;span style=&quot;background-color: initial;&quot;&gt;parelhoTelefonico&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- navegadorInternet:NavegadorInternet&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-15">
+          <mxGeometry y="26" width="250" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-15">
+          <mxGeometry y="90" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="N5TeXRDil59Ur9UTyFrV-15" source="N5TeXRDil59Ur9UTyFrV-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-147" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="N5TeXRDil59Ur9UTyFrV-15" source="N5TeXRDil59Ur9UTyFrV-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5TeXRDil59Ur9UTyFrV-18" value="+ tocar(): void&lt;div&gt;+ pausar():void&lt;/div&gt;&lt;div&gt;+ SelecionarMusica():void&lt;/div&gt;&lt;div&gt;+ Ligar(): void&lt;/div&gt;&lt;div&gt;+ Atender(): void&lt;/div&gt;&lt;div&gt;+ iniciarCorreioVoz(): void&lt;/div&gt;&lt;div&gt;+ exibirPagina(url: String): void&lt;/div&gt;&lt;div&gt;+ adicionarNovaAba: void&lt;/div&gt;&lt;div&gt;+ atualizarPagina: void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="N5TeXRDil59Ur9UTyFrV-15">
+          <mxGeometry y="98" width="250" height="142" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
