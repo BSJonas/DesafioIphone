@@ -15,3 +15,10 @@ $src/telefone/AparelhoTelefonico.java,a\7\a7d57e20d62309d453ae0021f7244a9fdbf15
 src/Iphone.java,5\9\59a58e1b45fa5d6d062d2128e8f08bb104ba82a1
 B
 src/Principal.java,e\6\e63c5d461036faa917f57dddca2fba9ea2257279
+=
+src/README.md,8\3\83aa3445a7f65c488e8ccd0a5ad0e80c174dc329
+L
+src/Diagrama sem nome.drawio,6\5\6555d3a212939d2acea23351bf9911c5cdf05527
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
